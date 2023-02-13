@@ -12,7 +12,7 @@ function Header() {
 	return (
 		<header className="Header">
 			<h1 className="Header-h1">
-				<a href="#" className="Header-a">
+				<a href="/" className="Header-a">
 					{/* Logo */}
 				</a>
 			</h1>
@@ -23,7 +23,7 @@ function Header() {
 				<ul className="Header-ul">
 					<li className="Header-li">
 						<a href="#about-me" className="Header-a">
-							Acerca de mí
+							Sobre mí
 						</a>
 					</li>
 					<li className="Header-li">
