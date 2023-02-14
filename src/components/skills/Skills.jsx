@@ -10,12 +10,14 @@ function Skills() {
 				<button
 					className={`Skills-btn ${skillsSection ? 'isActive' : ''}`}
 					onClick={() => setSkillsSection(true)}
+					aria-label="Habilidades Técnicas"
 				>
 					Técnicas
 				</button>
 				<button
 					className={`Skills-btn ${!skillsSection ? 'isActive' : ''}`}
 					onClick={() => setSkillsSection(false)}
+					aria-label="Habilidades Blandas"
 				>
 					Blandas
 				</button>
@@ -39,7 +41,6 @@ function Skills() {
 							<li className="Skills-li">PHP</li>
 							<li className="Skills-li">JAVA</li>
 							<li className="Skills-li">Python</li>
-							<li className="Skills-li">DRF</li>
 							<li className="Skills-li">MySql</li>
 							<li className="Skills-li">Postgresql</li>
 						</ul>

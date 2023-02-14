@@ -3,45 +3,61 @@ import { Link } from 'react-router-dom';
 const projects = [
 	{
 		id: 1,
-		name: 'Project 1',
+		name: 'Streaming Clone',
 		image: 'https://via.placeholder.com/150',
+		estado: 'terminado',
+		tech: ['HTML', 'SCSS', 'Js', 'React'],
 	},
 	{
 		id: 2,
-		name: 'Project 2',
+		name: 'BLog React & DRF',
 		image: 'https://via.placeholder.com/150',
+		estado: 'falta terminar',
+		tech: ['HTML', 'TailwindCSS', 'Js', 'React', 'Python', 'Django Rest Framework'],
 	},
 	{
 		id: 3,
-		name: 'Project 3',
+		name: 'Api Flask',
 		image: 'https://via.placeholder.com/150',
+		estado: 'revisar',
+		tech: ['Python', 'Flask', 'Mysql'],
 	},
 
 	{
 		id: 4,
-		name: 'Project 4',
+		name: 'HodFoot',
 		image: 'https://via.placeholder.com/150',
+		estado: 'falta terminar',
+		tech: ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'MySql'],
 	},
 	{
 		id: 5,
-		name: 'Project 5',
+		name: 'Mercado',
 		image: 'https://via.placeholder.com/150',
+		estado: 'terminado',
+		tech: ['Java'],
 	},
 	{
 		id: 6,
-		name: 'Project 6',
+		name: 'Rick & Morty Api',
 		image: 'https://via.placeholder.com/150',
+		estado: 'mejorar o descartar',
+		tech: ['HTML', 'CSS???', 'Js', 'React'],
 	},
 	{
 		id: 7,
-		name: 'Project 7',
+		name: 'Panaderia',
 		image: 'https://via.placeholder.com/150',
+		estado: 'terminado',
+		tech: ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'MySql'],
 	},
 
 	{
 		id: 8,
-		name: 'Project 8',
+		name: 'Portafolio',
 		image: 'https://via.placeholder.com/150',
+		estado: 'falta terminar',
+		tech: ['HTML', 'SCSS', 'Js', 'React'],
 	},
 ];
 
