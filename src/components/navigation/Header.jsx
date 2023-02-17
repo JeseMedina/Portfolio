@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+// import { Link } from 'react-router-dom';
 
 function Header() {
 	const [menu, setMenu] = useState(false);
@@ -13,7 +14,7 @@ function Header() {
 		<header className="Header">
 			<h1 className="Header-h1">
 				<a href="/" className="Header-a" aria-label="Home">
-					{/* Logo */}
+					Jesé Medina
 				</a>
 			</h1>
 			<button className="Header-btn" onClick={toggleMenu} aria-label="Menú">

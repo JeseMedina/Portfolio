@@ -22,7 +22,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	border-bottom: $secondary 0.1rem solid;
-	position: fixed;
+	position: fixed;	
 
 	&-btn {
 		display: none;
@@ -37,6 +37,17 @@ body {
 		&:hover {
 			color: $third;
 			transform: scale(1.03);
+		}
+	}
+
+	&-h1{
+		font-weight: 600;
+		transition: all 0.5s ease;
+
+		&:hover {
+			color: $third;
+			transform: scale(1.03);
+			font-weight: 600;
 		}
 	}
 
@@ -60,11 +71,21 @@ body {
 }
 
 .Main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	margin: 0 auto;
-	width: 60%;
+	width: 75%;
+}
+
+.Error{
+	margin: auto;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+
+	&-p{
+		margin: 0 auto;
+		font-size: 10rem;
+		color: $red;
+	}
 }
 
 .Hero {
@@ -203,13 +224,15 @@ body {
 	&-h2 {
 		font-size: 2.5rem;
 		margin-bottom: 1rem;
+		margin-top: 1rem;
 	}
 
 	&-section {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
 		width: 100%;
 		gap: 1rem;
+		margin-bottom: 1rem;
 
 		.Card {
 			background-color: $primary;
@@ -234,6 +257,56 @@ body {
 	}
 }
 
+.Project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+	gap: 1rem;
+	width: 100%;
+
+	&-h2 {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+		padding-top: 5rem;
+	}
+
+	&-span{
+		font-weight: 600;
+	}
+	
+	&-p {
+		font-size: 1rem;
+				font-weight: 100;
+		margin-bottom: .5rem;
+	}
+  
+  &-img {
+		padding-top: 5rem;
+    flex: 0 0 auto;
+    max-width: 40%;
+  }
+
+	&-links {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		text-align: center;
+		justify-content: space-evenly;
+		font-size: 1.5rem;
+		margin: 1rem 0;
+	}
+
+	&-svg {
+		transition: all 0.5s ease;
+
+		&:hover {
+			color: $third;
+			transform: scale(1.2);
+		}
+	}
+}
+
 .Education {
 	display: flex;
 	flex-direction: column;
@@ -242,10 +315,16 @@ body {
 	justify-content: center;
 	min-height: 100vh;
 	width: 100%;
+	
+
+	&-h3{
+		padding-top: 5rem;
+	}
 
 	&-h2 {
 		font-size: 2.5rem;
 		margin-bottom: 1rem;
+		
 	}
 
 	&-section {
@@ -420,6 +499,16 @@ body {
 	.Main {
 		padding: 0 2rem;
 		width: 100%;
+	}
+
+	.Project{
+		flex-direction: column;
+		justify-content: center;
+
+		&-img{
+			padding-top: 0;
+			max-width: 85%;
+		}
 	}
 }
 

@@ -1,27 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCertificate } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-
-const education = [
-	{
-		id: 1,
-		name: 'Tecnicatura Superior en Desarrollo de Software',
-		year: '2020 - 2022',
-		place: 'IES Juan Mantovani',
-	},
-	{
-		id: 2,
-		name: 'Desarrollador Front End React',
-		year: '2022',
-		place: 'Educación IT',
-	},
-	{
-		id: 3,
-		name: 'Desarrollo Web',
-		year: '2022',
-		place: 'Informatorio',
-	},
-];
+import education from '../../../public/education';
 
 function Education() {
 	return (
