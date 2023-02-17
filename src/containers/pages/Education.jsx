@@ -13,6 +13,7 @@ function Education() {
 		return <Error404 />;
 	}
 
+	const haveItems = educationItem.projects[0] === 'none';
 	return (
 		<Layout>
 			<div className="Main">
@@ -30,7 +31,7 @@ function Education() {
 					) : (
 						<></>
 					)}
-					{educationItem.projects ? (
+					{educationItem.projects && !haveItems ? (
 						<>
 							<h2 className="Projects-h2">Proyectos</h2>
 							<div className="Projects-section">

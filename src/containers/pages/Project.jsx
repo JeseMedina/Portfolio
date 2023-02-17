@@ -59,7 +59,12 @@ function Project() {
 							</a>
 						</div>
 					</div>
-					<img className="Project-img" src={projectItem.image} alt={projectItem.name} />
+					<img
+						className="Project-img"
+						src={`../../../public/images/${projectItem.image}`}
+						alt={projectItem.name}
+						loading="lazy"
+					/>
 				</div>
 			</div>
 		</Layout>

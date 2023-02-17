@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-// import { Link } from 'react-router-dom';
 
 function Header() {
 	const [menu, setMenu] = useState(false);
@@ -13,7 +12,7 @@ function Header() {
 	return (
 		<header className="Header">
 			<h1 className="Header-h1">
-				<a href="/" className="Header-a" aria-label="Home">
+				<a href="/#hero" className="Header-a" aria-label="Home">
 					Jesé Medina
 				</a>
 			</h1>
@@ -23,27 +22,27 @@ function Header() {
 			<nav className={`Header-nav ${menu ? 'isActive' : ''}`}>
 				<ul className="Header-ul">
 					<li className="Header-li" onClick={toggleMenu}>
-						<a href="#about-me" className="Header-a">
+						<a href="/#about-me" className="Header-a">
 							Sobre mí
 						</a>
 					</li>
 					<li className="Header-li" onClick={toggleMenu}>
-						<a href="#skills" className="Header-a">
+						<a href="/#skills" className="Header-a">
 							Habilidades
 						</a>
 					</li>
 					<li className="Header-li" onClick={toggleMenu}>
-						<a href="#projects" className="Header-a">
+						<a href="/#projects" className="Header-a">
 							Proyectos
 						</a>
 					</li>
 					<li className="Header-li" onClick={toggleMenu}>
-						<a href="#education" className="Header-a">
+						<a href="/#education" className="Header-a">
 							Educación
 						</a>
 					</li>
 					<li className="Header-li" onClick={toggleMenu}>
-						<a href="#contact" className="Header-a">
+						<a href="/#contact" className="Header-a">
 							Contacto
 						</a>
 					</li>

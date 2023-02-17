@@ -8,7 +8,12 @@ function ProjectsList({ projectIds = [] }) {
 	return filteredProjects.map(item => (
 		<Link to={`/project/${item.id}`} className="Card" key={item.id}>
 			<h3 className="Card-h3">{item.name}</h3>
-			<img className="Card-img" src={item.image} alt={item.name} loading="lazy" />
+			<img
+				className="Card-img"
+				src={`../../../public/images/${item.image}`}
+				alt={item.name}
+				loading="lazy"
+			/>
 		</Link>
 	));
 }

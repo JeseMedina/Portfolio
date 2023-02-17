@@ -13,7 +13,7 @@ function Contact() {
 			<h2 className="Contact-h2">Contacto</h2>
 			<div className="Contact-socials">
 				<a
-					href="https://www.github.com"
+					href="https://github.com/JeseMedina"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="Hero-a"

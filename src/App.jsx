@@ -12,10 +12,11 @@ function App() {
 			<Routes>
 				{/* Error404 */}
 				<Route path="*" element={<Error404 />} />
-				<Route path="/education/:education_id" element={<Education />} />
-				<Route path="/project/:project_id" element={<Project />} />
+
 				{/* Home */}
 				<Route path="/" element={<Home />} />
+				<Route path="/education/:education_id" element={<Education />} />
+				<Route path="/project/:project_id" element={<Project />} />
 			</Routes>
 		</Router>
 	);
