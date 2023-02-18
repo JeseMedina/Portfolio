@@ -23,10 +23,6 @@ function Project() {
 						<h2 className="Project-h2">{projectItem.name}</h2>
 
 						<p className="Project-p">
-							<span className="Project-span">Estado: </span>
-							{projectItem.estado}
-						</p>
-						<p className="Project-p">
 							<span className="Project-span">Tecnologías utilizadas: </span>
 							{projectItem.tech.join(', ')}
 						</p>
@@ -39,24 +35,32 @@ function Project() {
 							<></>
 						)}
 						<div className="Project-links">
-							<a
-								href={projectItem.github}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="Hero-a"
-								aria-label="Github"
-							>
-								<FontAwesomeIcon icon={faGithub} className="Hero-svg" />
-							</a>
-							<a
-								href={projectItem.web}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="Hero-a"
-								aria-label="Web"
-							>
-								<FontAwesomeIcon icon={faGlobe} className="Hero-svg" />
-							</a>
+							{projectItem.github ? (
+								<a
+									href={projectItem.github}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="Hero-a"
+									aria-label="Github"
+								>
+									<FontAwesomeIcon icon={faGithub} className="Hero-svg" />
+								</a>
+							) : (
+								<></>
+							)}
+							{projectItem.web ? (
+								<a
+									href={projectItem.web}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="Hero-a"
+									aria-label="Web"
+								>
+									<FontAwesomeIcon icon={faGlobe} className="Hero-svg" />
+								</a>
+							) : (
+								<></>
+							)}
 						</div>
 					</div>
 					<img

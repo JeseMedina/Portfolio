@@ -5,34 +5,17 @@ const projects = [
     image: 'streaming-clone.jpg',
     estado: 'Finalizado',
     tech: ['HTML', 'SCSS', 'Js', 'React'],
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In nulla similique reiciendis dignissimos cumque at excepturi beatae hic nesciunt, sit, eius, exercitationem obcaecati eum itaque unde optio aliquid. Atque, delectu',
-    github: '',
+    description: 'He creado una aplicación web con React utilizando la API de The Movie Database (TMDb) para mostrar una amplia variedad de películas y series, con detalles técnicos y su reparto.  En el caso de las series, también se incluye información sobre la cantidad de temporadas y episodios de cada una. La aplicación también ofrece recomendaciones de contenido relacionado. Además, he incluido el registro de usuario y un sistema de almacenamiento para que los usuarios puedan guardar películas y series en "ver más tarde" usando localstorage y el inicio de sesión se realiza mediante sessionStorage.',
+    github: 'lol.com',
     web: '',
   },
-  // {
-  //   id: 2,
-  //   name: 'BLog React & DRF',
-  //   image: 'blog-react-&-drf.jpg',
-  //   estado: 'falta terminar',
-  //   tech: ['HTML', 'TailwindCSS', 'Js', 'React', 'Python', 'Django Rest Framework'],
-  //   description: '',
-  // },
-  // {
-  //   id: 2,
-  //   name: 'Api Flask',
-  //   image: 'api-flask.jpg',
-  //   estado: 'revisar',
-  //   tech: ['Python', 'Flask', 'Mysql'],
-  //   description: '',
-  // },
-
   {
     id: 2,
     name: 'HotFood',
     image: 'hotfood.jpg',
     estado: 'falta terminar',
     tech: ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'MySql'],
-    description: '',
+    description: 'Esta aplicación web de restaurante ofrece a los usuarios una forma fácil y conveniente de acceder a nuestro menú completo y con un simple registro hacer pedidos desde cualquier lugar. Además, podrá guardar un plato en favoritos. Esta función garantiza que los usuarios puedan encontrar sus platos preferidos en el menú de forma rápida y sencilla, sin tener que buscarlos cada vez. Por otro lado, los administradores del restaurante tendrán acceso a una lista completa de los clientes registrados y sus pedidos. Esto permitirá al equipo del restaurante tener un control completo sobre los pedidos entrantes, procesarlos y hacer entregas oportunas.',
   },
   {
     id: 3,
@@ -40,7 +23,7 @@ const projects = [
     image: 'mercado.jpg',
     estado: 'Finalizado',
     tech: ['Java'],
-    description: '',
+    description: 'Esta aplicación de escritorio para mercado cuenta con dos perfiles: vendedor y administrador. Los vendedores pueden vender a consumidores finales y clientes registrados, abrir y cerrar caja y controlar el flujo de dinero en su caja. Los administradores, por su parte, pueden crear perfiles de vendedores, realizar compras a proveedores, generar reportes de ventas, compras y flujo de caja, y agregar productos y categorías. Con la capacidad de guardar información sobre los productos, los administradores pueden mantener un inventario actualizado y organizado.',
   },
   {
     id: 4,
@@ -48,7 +31,7 @@ const projects = [
     image: 'rick-&-morty-api.jpg',
     estado: 'mejorar o descartar',
     tech: ['HTML', 'CSS???', 'Js', 'React'],
-    description: '',
+    description: 'Esta aplicación web utiliza la API de Rick & Morty para mostrar una lista de personajes de la serie. La aplicación cuenta con una simple paginación que permite a los usuarios navegar por los distintos personajes disponibles. Cabe mencionar que la aplicación aún se encuentra en desarrollo y no cuenta con todas las funcionalidades deseadas.',
   },
   {
     id: 5,
@@ -56,17 +39,33 @@ const projects = [
     image: 'panaderia.jpg',
     estado: 'Finalizado',
     tech: ['HTML', 'CSS', 'JS', 'jQuery', 'PHP', 'MySql'],
-    description: '',
+    description: 'Esta aplicación web de panadería fue desarrollada en equipo y permite al personal de la panadería tener un control total de su negocio. Desde la gestión de ventas a clientes o consumidor final, compras a proveedores, producción de pan y reparto, hasta el control del stock y el flujo de dinero. La aplicación permite al administrador crear diferentes tipos de usuarios con diferentes permisos para acceder a diferentes secciones de la aplicación, lo que garantiza la seguridad y privacidad de los datos de la empresa. La gestión del stock, la producción y el reparto ayuda a la panadería a optimizar su proceso y asegurarse de que siempre tengan suficiente inventario.',
   },
 
   {
     id: 6,
     name: 'Portafolio',
     image: 'portafolio.jpg',
-    estado: 'falta terminar',
+    estado: 'Finalizado',
     tech: ['HTML', 'SCSS', 'Js', 'React'],
-    description: '',
+    description: 'Mi portafolio permite presentarme. Ofrezco una breve descripción sobre mi formación académica y cursos realizados, destacando mis habilidades y conocimientos técnicos. También incluyo una sección dedicada a los proyectos que he desarrollado, donde muestro mis habilidades en programación y diseño de sitios web, aplicaciones. Pueden descargar mi currículum y ponerse en contacto conmigo a través de varias opciones, incluyendo formulario de contacto.',
   },
+  // {
+  //   id: 7,
+  //   name: 'BLog React & DRF',
+  //   image: 'blog-react-&-drf.jpg',
+  //   estado: 'falta terminar',
+  //   tech: ['HTML', 'TailwindCSS', 'Js', 'React', 'Python', 'Django Rest Framework'],
+  //   description: '',
+  // },
+  // {
+  //   id: 8,
+  //   name: 'Api Flask',
+  //   image: 'api-flask.jpg',
+  //   estado: 'revisar',
+  //   tech: ['Python', 'Flask', 'Mysql'],
+  //   description: '',
+  // },
 ];
 
 export default projects;
