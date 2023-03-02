@@ -1,5 +1,5 @@
 # Portafolio
-![Imagen del proyecto](https://github.com/JeseMedina/App-Movies-and-Series/blob/main/portafolio.jpg?raw=true)
+![Imagen del proyecto](https://github.com/JeseMedina/Portfolio/blob/main/portafolio.jpg?raw=true)
 
 ## Descripción
 
