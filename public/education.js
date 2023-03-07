@@ -14,7 +14,7 @@ const education = [
         text: 'Estas materias me brindaron un conocimientos firmes en como diseñar, crear, gestionar y hacer consultas en una base de datos. Programacion de escritorio con Java. Programacion web usando HTML,CSS,PHP. Ingenieria aplicada al software, de requerimientos, de disñeo,procesos de desarrollo de software, gestion y direccion de proyectos, pruebas unitarias . Analisis orientado a objetos y UML. diagramas de clase,secuencia y actividad, casos de uso, reusabilidad. MVC. Diseño y Programacion Orientado a Objetos.Lo cual me preparó para enfrentar los desafíos del mundo laboral.',
       },
     ],
-    projects: [2, 3, 5],
+    projects: [2, 3, 4],
   },
   {
     id: 2,
