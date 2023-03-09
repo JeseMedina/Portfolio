@@ -8,8 +8,7 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"format": "prettier --write .",
-		"lint": "eslint --fix . --ext .js,.jsx",
-		"deploy": "gh-pages -d dist"
+		"lint": "eslint --fix . --ext .js,.jsx"
 	},
 	"dependencies": {
 		"@emailjs/browser": "^3.10.0",
