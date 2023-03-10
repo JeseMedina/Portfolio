@@ -1,10 +1,10 @@
-import { Error404 } from './containers/errors/Error404';
+import Error404 from './containers/errors/Error404';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './styles/reset.css';
 import './styles/style.scss';
-import { Home } from './containers/pages/Home';
-import { Education } from './containers/pages/Education';
-import { Project } from './containers/pages/Project';
+import Home from './containers/pages/Home';
+import Education from './containers/pages/Education';
+import Project from './containers/pages/Project';
 
 function App() {
 	return (
