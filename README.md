@@ -21,7 +21,7 @@ Mi portafolio permite presentarme. Ofrezco una breve descripción sobre mi forma
 
 * [skajese@gmail.com](skajese@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/jesemedina/?original_referer=)
-* [Porfolio web]()
+* [Porfolio web](https://ephemeral-jelly-35c7e3.netlify.app/)
 
 ## Licencia
 MIT Public License v3.0
