@@ -3,7 +3,7 @@
 
 ## Demo
 
-https://ephemeral-jelly-35c7e3.netlify.app/
+https://jesemedina.netlify.app/
 
 ## Descripción
 
@@ -21,7 +21,7 @@ Mi portafolio permite presentarme. Ofrezco una breve descripción sobre mi forma
 
 * [skajese@gmail.com](skajese@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/jesemedina/?original_referer=)
-* [Porfolio web](https://ephemeral-jelly-35c7e3.netlify.app/)
+* [Porfolio web](https://jesemedina.netlify.app/)
 
 ## Licencia
 MIT Public License v3.0
