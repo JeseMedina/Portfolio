@@ -1,10 +1,10 @@
 import Layout from '../Layout';
 import { useParams } from 'react-router-dom';
 import projects from '../../../public/Projects';
+import Error404 from '../errors/error404';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
-import Home from './Home';
 
 function Project() {
 	const params = useParams();
@@ -12,7 +12,7 @@ function Project() {
 	const projectItem = projects.find(item => item.id === parseInt(id));
 
 	if (!projectItem) {
-		return <Home />;
+		return <Error404 />;
 	}
 
 	return (

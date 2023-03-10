@@ -1,3 +1,4 @@
+import Error404 from './containers/errors/Error404';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './styles/reset.css';
 import './styles/style.scss';
@@ -9,7 +10,8 @@ function App() {
 	return (
 		<Router>
 			<Routes>
-				<Route path="*" element={<Home />} />
+				{/* Error404 */}
+				<Route path="*" element={<Error404 />} />
 
 				{/* Home */}
 				<Route path="/" element={<Home />} />

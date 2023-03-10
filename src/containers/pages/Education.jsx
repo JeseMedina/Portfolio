@@ -2,7 +2,7 @@ import Layout from '../Layout';
 import education from '../../../public/education';
 import { useParams } from 'react-router';
 import ProjectsList from '../../components/projects/ProjectsList';
-import Home from './Home';
+import Error404 from '../errors/error404';
 
 function Education() {
 	const params = useParams();
@@ -10,7 +10,7 @@ function Education() {
 	const educationItem = education.find(item => item.id === parseInt(id));
 
 	if (!educationItem) {
-		return <Home />;
+		return <Error404 />;
 	}
 
 	const haveItems = educationItem.projects[0] === 'none';
