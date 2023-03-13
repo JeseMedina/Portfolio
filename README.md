@@ -25,4 +25,4 @@ Mi portafolio permite presentarme. Ofrezco una breve descripción sobre mi forma
 
 ## Licencia
 MIT Public License v3.0
-No puede usarse comencialmente.
+No puede usarse comercialmente.
