@@ -11,6 +11,15 @@ const projects = [
   },
   {
     id: 2,
+    name: 'Spectask',
+    image: 'spectask.jpg',
+    estado: 'Finalizado',
+    tech: ['TS', 'React', 'Node.js', 'Express', 'MongoDB', 'TailwindCSS', 'Redux Toolkit'],
+    description: 'Spectask es una aplicación creada con el stack MERN (MongoDB, Express, React y Node.js) y TypeScript. Esta aplicación fue desarrollada con el objetivo de profundizar en el aprendizaje de las tecnologías Node.js, Express y Redux Toolkit.',
+    github: 'https://github.com/JeseMedina/Spectask',
+  },
+  {
+    id: 3,
     name: 'Panaderia',
     image: 'panaderia.jpg',
     estado: 'Finalizado',
@@ -19,7 +28,7 @@ const projects = [
     github: 'https://github.com/JeseMedina/Panaderia'
   },
   {
-    id: 3,
+    id: 4,
     name: 'HotFood',
     image: 'hotfood.jpg',
     estado: 'falta terminar',
@@ -29,7 +38,7 @@ const projects = [
     web: 'https://medinajese.000webhostapp.com/login.html'
   },
   {
-    id: 4,
+    id: 5,
     name: 'Mercado',
     image: 'mercado.jpg',
     estado: 'Finalizado',
@@ -38,7 +47,7 @@ const projects = [
     github: 'https://github.com/JeseMedina/Mercado',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Memoria de Bob Esponja',
     image: 'bob-esponja.jpg',
     estado: 'Finalizado',
@@ -47,14 +56,14 @@ const projects = [
     github: 'https://github.com/JeseMedina/Juego-Memoria-Bob-Esponja',
     web: 'https://jesemedina.github.io/Juego-Memoria-Bob-Esponja/',
   }, {
-    id: 6,
+    id: 7,
     name: 'Portafolio',
     image: 'portafolio.jpg',
     estado: 'Finalizado',
     tech: ['HTML', 'SCSS', 'JS', 'React'],
     description: 'Mi portafolio permite presentarme. Ofrezco una breve descripción sobre mi formación académica y cursos realizados, destacando mis habilidades y conocimientos técnicos. También incluyo una sección dedicada a los proyectos que he desarrollado, donde muestro mis habilidades en programación y diseño de sitios web, aplicaciones. Pueden descargar mi currículum y ponerse en contacto conmigo a través de varias opciones, incluyendo formulario de contacto.',
     github: 'https://github.com/JeseMedina/Portfolio'
-  },
+  }
 ];
 
 export default projects;
