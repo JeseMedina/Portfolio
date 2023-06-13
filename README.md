@@ -1,6 +1,10 @@
 # Portafolio
 ![Imagen del proyecto](https://github.com/JeseMedina/Portfolio/blob/main/portafolio.jpg?raw=true)
 
+## Demo
+
+https://jesemedina.netlify.app/
+
 ## Descripción
 
 Mi portafolio permite presentarme. Ofrezco una breve descripción sobre mi formación académica y cursos realizados, destacando mis habilidades y conocimientos técnicos. También incluyo una sección dedicada a los proyectos que he desarrollado, donde muestro mis habilidades en programación y diseño de sitios web, aplicaciones. Pueden descargar mi currículum y ponerse en contacto conmigo a través de varias opciones, incluyendo formulario de contacto.
@@ -17,8 +21,8 @@ Mi portafolio permite presentarme. Ofrezco una breve descripción sobre mi forma
 
 * [skajese@gmail.com](skajese@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/jesemedina/?original_referer=)
-* [Porfolio web]()
+* [Porfolio web](https://jesemedina.netlify.app/)
 
 ## Licencia
 MIT Public License v3.0
-No puede usarse comencialmente.
+No puede usarse comercialmente.
